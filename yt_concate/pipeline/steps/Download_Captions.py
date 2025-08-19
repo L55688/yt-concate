@@ -6,7 +6,7 @@ import os
 from .step import Step, StepException
 
 
-class DownloadCaption(Step):
+class DownloadCaptions(Step):
     def process(self, data, inputs):
         ydl_opts = {
             'writesubtitles': True,
